@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    color: blanchedalmond;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+p{
+    font-size: 2rem;
+    color: rgb(254, 220, 0);
+}
+
+h3{
+    color: antiquewhite;
+    font-size: 1.5rem;
+}
+
+li{
+    color: yellow;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    letter-spacing: 0.1rem;
+}
+
+strong{
+    letter-spacing: 0rem;
+}
+
+.container1, figure, h3{
+    text-align: center;
+}
+
+img{
+    width: 43.5rem;
+}
+
+figcaption{
+    color: yellow;
+}
+
+figure{
+    margin-top: 1.5rem;
+}
