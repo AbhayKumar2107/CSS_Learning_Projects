@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f4e463d95b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <!----------------------------------------------------------------Left Section-------------->
+      <section class="left">
+        <div class="fixedPosition">
+          <div class="profilePicContainer">
+            <img src="./multimedia/man.jpg" alt="profilePic" />
+            <p>John Doe</p>
+          </div>
+          <div class="navbar">
+            <ul>
+              <li>
+                <a href="#barGraph"
+                  ><i class="fa-solid fa-list navIcon"></i
+                  ><span>DASHBOARD</span></a
+                >
+              </li>
+              <li>
+                <a href="#dashboardData"
+                  ><i class="fa-solid fa-database navIcon"></i
+                  ><span>DATA</span></a
+                >
+              </li>
+              <li>
+                <a href="#userInteraction"
+                  ><i class="fa-solid fa-user navIcon"></i><span>USER</span></a
+                >
+              </li>
+              <li>
+                <a href="#schedule"
+                  ><i class="fa-solid fa-calendar navIcon"></i
+                  ><span>SCHEDULE</span></a
+                >
+              </li>
+              <li>
+                <a href="#contact"
+                  ><i class="fa-solid fa-address-book navIcon"></i
+                  ><span>CONTACT</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- ---------------------------------------------------------------Right Section------------>
+      <section class="right">
+        <div class="header">
+          <h1>DASHBOARD</h1>
+          <input type="text" placeholder="Search...." name="Search" />
+        </div>
+        <div id="barGraph">
+          <img src="./multimedia/BarGraph.png" alt="graphPhoto" />
+        </div>
+        <!--------------------------------------Dashboard Data----------------->
+        <div id="dashboardData">
+          <h2>DASHBOARD DATA</h2>
+          <div class="dataCard dc1">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <p>Total Revenue</p>
+            <p>$456,553,563</p>
+          </div>
+          <div class="dataCard dc2">
+            <i class="fa-solid fa-tag"></i>
+            <p>Total Transaction</p>
+            <p>1,450</p>
+          </div>
+          <div class="dataCard dc3">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <p>Total Likes</p>
+            <p>1,234</p>
+          </div>
+          <div class="dataCard dc4">
+            <i class="fa-solid fa-user"></i>
+            <p>Total User</p>
+            <p>856</p>
+          </div>
+        </div>
+        <!------------------------------------------User Interaction------------->
+        <div id="userInteraction">
+          <h2>USER INTERACTION</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>MONTH</th>
+                <th>NUMBER OF USERS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>JANUARY</td>
+                <td>1000</td>
+              </tr>
+              <tr>
+                <td>FEBRUARY</td>
+                <td>1200</td>
+              </tr>
+              <tr>
+                <td>MARCH</td>
+                <td>1500</td>
+              </tr>
+              <tr>
+                <td>APRIL</td>
+                <td>1250</td>
+              </tr>
+              <tr>
+                <td>MAY</td>
+                <td>1600</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-------------------------------------------Schedule----------------->
+        <div id="schedule">
+          <h2>TODAY'S SCHEDULE</h2>
+          <div class="scheduleCard">
+            <h3>MEETINGS FROM SUPPLIERS FROM KUTTA BALI</h3>
+            <p>14:00-15:00</p>
+            <p>AT SUNSET ROAD KUTTA BALI</p>
+          </div>
+          <div class="scheduleCard">
+            <h3>MEETINGS FROM SUPPLIERS FROM SURESH</h3>
+            <p>16:00-17:00</p>
+            <p>AT SUNSET ROAD KUTTA BALI</p>
+          </div>
+          <div class="scheduleCard">
+            <h3>MEETINGS FROM SUPPLIERS FROM AJAY</h3>
+            <p>12:00-1:00</p>
+            <p>AT SUNSET ROAD</p>
+          </div>
+          <div class="scheduleCard">
+            <h3>MEETINGS FROM SUPPLIERS FROM ENCOPRICE</h3>
+            <p>2:00-3:00</p>
+            <p>AT MORNING ROAD</p>
+          </div>
+        </div>
+        <!------------------------------------------Contact Details------->
+        <div id="contact">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.950603092!2d76.76356906374639!3d28.64428745347556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1763618719397!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <div class="feedbackForm">
+            <h3>FEEDBACK</h3>
+            <form>
+              <input type="text" placeholder="Your Name" class="formName"/>
+              <input type="emil" placeholder="Your Email" class="formEmail"/>
+              <textarea name="feedback" placeholder="Your Feedback" class="formFeedback"></textarea>
+              <button type="submit">Submit Feedback</button>
+            </form> 
+          </div>
+        </div>
+        <div class="footer">
+          <div class="socialIcons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+          <div>
+            <p>&copy;2025 YOUR COMPANY NAME, ALL RIGHTS RESERVED</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
